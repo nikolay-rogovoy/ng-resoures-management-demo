@@ -1,8 +1,8 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {NgResouresManagementModule} from 'ng-resoures-management';
-
+import {HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
+import {WorkModule} from './work.module/work.module'
 
 
 @NgModule({
@@ -11,7 +11,8 @@ import {AppComponent} from './app.component';
     ],
     imports: [
         BrowserModule,
-        NgResouresManagementModule
+        WorkModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]
