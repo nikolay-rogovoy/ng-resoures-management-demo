@@ -2,18 +2,21 @@ import {CommonModule} from '@angular/common';
 import {NgModule} from '@angular/core';
 import {NgResouresManagementModule} from 'ng-resoures-management';
 import {WorkComponent} from './work.component';
+import {NavbarComponent} from './navbar.component';
 
 
 @NgModule({
     declarations: [
-        WorkComponent
+        WorkComponent,
+        NavbarComponent
     ],
     imports: [
         CommonModule,
         NgResouresManagementModule
     ],
     exports: [
-        WorkComponent
+        WorkComponent,
+        NavbarComponent
     ],
     providers: []
 })

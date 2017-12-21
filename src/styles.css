@@ -1,1 +1,226 @@
-/* You can add global styles to this file, and also import other style files */
+
+#minimizeSidebar {
+    background: #447DF7;
+    border: #447DF7;
+}
+
+.paging_full_numbers span.paginate_button {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.paging_full_numbers span.paginate_button:hover {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.paging_full_numbers span.paginate_active {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.ng-valid[required], .ng-valid.required {
+    border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form) {
+    border-left: 5px solid #a94442; /* red */
+}
+
+.at-table {
+    border-spacing: 0;
+    border: 1px solid;
+    border-radius: 3px;
+}
+.at-table td, .at-table th {
+    border-left: 1px solid;
+    border-top: 1px solid;
+}
+.at-table th {
+    background: #fff5d7;
+    border-top: none;
+}
+.at-table td:first-child, .at-table th:first-child {
+    border-left: none;
+}
+
+/* из-за background */
+
+.at-table th:first-child {
+    border-top-left-radius: 3px;
+}
+.at-table th:last-child {
+    border-top-right-radius: 3px;
+}
+
+.card .content {
+    padding: 15px;
+}
+
+#loader {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    -webkit-transform: translate3d(0, -50%, 0);
+    -moz-transform: translate3d(0, -50%, 0);
+    -o-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    text-align: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    top: 50%;
+}
+
+.menu-item {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.menu-item-new-group {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-bottom: 4px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #333333;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.accordion-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.accordion-panel {
+    margin-top: 0px !important;
+}
+
+.accordion-panel-heading {
+    background-color: #ffffff !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.find-input {
+    background-color: #f8f8f8 !important;
+}
+
+.find-button {
+    background-color: #f8f8f8 !important;
+    border-color: #f8f8f8 !important;
+}
+
+.notpodcherk {
+    text-decoration: none !important;
+}
+
+.notpodcherk:hover {
+    text-decoration: none !important;
+}
+
+.fr-box > div:nth-child(4) {
+    display: none !important;
+}
+
+.indicator-off, .indicator-on {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 2px;
+    clear: both;
+    bottom: 0;
+    text-align: center;
+    transition: background-color 350ms, box-shadow 700ms;
+    -o-transition: background-color 350ms, box-shadow 700ms;
+    -moz-transition: background-color 350ms, box-shadow 700ms;
+    -webkit-transition: background-color 350ms, box-shadow 700ms;
+}
+
+.indicator-on {
+    background-color: rgb(0, 226, 0);
+    box-shadow: inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5),
+    0px 0px 3px 2px rgba(0, 226, 0, 0.5);
+}
+
+.indicator-off {
+    background-color: rgb(226, 0, 0);
+    box-shadow: inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5),
+    0px 0px 3px 2px rgba(226, 0, 0, 0.5);
+}
+
+.btn-nav-menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.incoming-info {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.incoming-phone {
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.call-button {
+    border-radius: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+.accept-call {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    font-size: 20px;
+}
+
+.reject-call {
+    font-size: 20px;
+}
+
+
+.fr-wrapper > div:nth-child(1) > a:nth-child(1) {
+    display: none !important;
+    margin: -5px !important;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-item-1 { flex: 1; }
+.flex-item-2 { flex: 2; }
+.flex-item-3 { flex: 3; }
+.flex-item-4 { flex: 4; }
+.flex-item-5 { flex: 5; }
+
+.hidden {
+    display: none;
+}
